@@ -36,11 +36,11 @@ dir should be `""` when you don't need dir.
 `sudo ./bin/mitamae local -j node.json recipe.rb`
 
 ### Tools
-git, curl, binutils, lib32z1, lib32ncurses5, gdb-peda, enjarify, volatility, wireshark, sleuthkit, binwalk, radare2, jd-gui, stegsolve, rp++, pwntools
+git, curl, binutils, lib32z1, lib32ncurses5, gdb-peda, enjarify, volatility, wireshark, sleuthkit, binwalk, radare2, jd-gui, stegsolve, rp++, pwntools  
 
-This is based on [Mitamae-Debian](https://github.com/taroooyan/mitamae-debian) and [mitamae-osx](https://github.com/upamune/mitamae-osx).
+
+This is based on [Mitamae-Debian](https://github.com/taroooyan/mitamae-debian) and [mitamae-osx](https://github.com/upamune/mitamae-osx).  
 
 
 Copyright © 2017 ak1t0
-
 Distributed under [LICENSE](https://github.com/ak1t0/Mitamae-CTF/blob/master/LICENSE)
