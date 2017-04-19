@@ -43,4 +43,4 @@ This is based on [Mitamae-Debian](https://github.com/taroooyan/mitamae-debian) a
 
 
 Copyright © 2017 ak1t0
-Distributed under [LICENSE](https://github.com/ak1t0/Mitamae-CTF/blob/master/LICENSE)
+Distributed under [LICENSE](https://github.com/ak1t0/MItamae-CTF/blob/master/LICENSE)
