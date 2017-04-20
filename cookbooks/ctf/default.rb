@@ -39,8 +39,9 @@ git "/home/#{node[:user]}/#{node[:dir]}/ctf/enjarify" do
   repository "git://github.com/Storyyeller/enjarify.git"
 end
 
-git "/home/#{node[:user]}/#{node[:dir]}/ctf/volatility" do
-  repository "git://github.com/volatilityfoundation/volatility.git"
+execute "Install Volatility" do
+  user node[:user]
+  command "cd /home/#{node[:user]}/#{node[:dir]}/ctf; wget http://downloads.volatilityfoundation.org/releases/2.6/volatility_2.6_lin64_standalone.zip; unzip -j volatility_2.6_lin64_standalone.zip volatility_2.6_lin64_standalone/volatility_2.6_lin64_standalone; rm volatility_2.6_lin64_standalone.zip; mv volatility_2.6_lin64_standalone volatility;"
 end
 
 package "wireshark" do
