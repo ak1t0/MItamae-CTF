@@ -33,7 +33,10 @@ dir should be `""` when you don't need dir.
 
 
 ## Install
-`./mitamae local -j node.json recipe.rb`
+`git clone https://github.com/ak1t0/MItamae-CTF`  
+`cd MItamae-CTF`  
+(edit node.json)  
+`./mitamae local -j node.json recipe.rb`  
 
 ### Tools
 git, curl, binutils, lib32z1, lib32ncurses5, gdb-peda, enjarify, volatility, wireshark, sleuthkit, binwalk, radare2, jd-gui, stegsolve, rp++, pwntools  
