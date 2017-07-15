@@ -24,6 +24,11 @@ package "john" do
   action :install
 end
 
+package "socat" do
+  user "root"
+  action :install
+end
+
 ["lib32z1", "lib32ncurses5"].each do |p|
     package p do
     user "root"
