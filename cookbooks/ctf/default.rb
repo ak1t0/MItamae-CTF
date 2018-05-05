@@ -64,7 +64,7 @@ package "sleuthkit" do
   action :install
 end
 
-bw_packages = ["python-lzma", "python-crypto", "mtd-utils", "gzip", "bzip2", "tar", "arj", "lhasa", "p7zip", "p7zip-full", "cabextract", "cramfsprogs", "cramfsswap", "squashfs-tools"]
+bw_packages = ["python-lzma", "python-crypto", "mtd-utils", "gzip", "bzip2", "tar", "arj", "lhasa", "p7zip", "p7zip-full", "cabextract", "cramfsswap", "squashfs-tools"]
 
 bw_packages.each do |p| 
   package p do
