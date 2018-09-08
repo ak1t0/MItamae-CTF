@@ -42,7 +42,17 @@ end
 package "qemu" do
   user "root"
   action :install
-end""""
+end
+
+package "gcc-arm-linux-gnueabi" do
+  user "root"
+  action :install
+end
+
+package "gdb-multiarch" do
+  user "root"
+  action :install
+end
 
 ["lib32z1", "lib32ncurses5"].each do |p|
     package p do
